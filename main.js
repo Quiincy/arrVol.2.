@@ -63,6 +63,7 @@ function divideByThree(word) {
     }
     return threeLetter;
   };
+
 function permute(string) {
     function recur(string, prefix) {
         if (string.length === 0) {
@@ -94,5 +95,5 @@ document.getElementById('filterEvenNumbers').innerHTML = "Функция5 - " + 
 document.getElementById('countPositiveNumbers').innerHTML = "Функция6 - " + countPositiveNumbers(1, -2, 3, -4, -5, 6);
 document.getElementById('getDividedByFive').innerHTML = "Функция7 - " + getDividedByFive(6, 2, 55, 11, 78, 2, 55, 77, 57, 87, 23, 2, 56, 3, 2);
 document.getElementById('replaceBadWords').innerHTML = "Функция8 - " +replaceBadWords("Are you fucking kidding, stupid piece of shit?");
-document.getElementById('divideByThree').innerHTML = "Функция9 - " + divideByThree("LegionCommander");
+document.getElementById('divideByThree').innerHTML = "Функция9 - " + divideByThree("LegionCommander".toLowerCase());
 document.getElementById('permute').innerHTML = "Функция10 - " + permute("man");
